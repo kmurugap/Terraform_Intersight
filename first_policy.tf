@@ -19,7 +19,7 @@ data "intersight_organization_organization" "organization" {
 
 resource "intersight_ntp_policy" "ntp1" {
   name        = "ntp_TF"
-  description = "Policy creation-1"
+  description = "Policy creation-2"
   enabled     = true
   ntp_servers = [
     "ntp.esl.cisco.com",
